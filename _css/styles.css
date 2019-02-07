@@ -1,0 +1,100 @@
+
+/*    Global styles   */
+
+body {
+    color: black;
+    background: black;
+    margin: 0px;
+}
+
+header, footer {
+    background: black;
+}
+
+header {
+    position:relative;
+    height:100vh;
+    min-height:500px;
+    max-height:1080px;
+    background:url(../_images/DSC_0625_v2.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.intro {
+    margin-top: 25%;
+    margin-left: 3%;
+    background-blend-mode: darken;
+}
+header, main, footer {
+    font-family: 'Poppins', sans-serif;
+    color: #F9A03F;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.skills, .projects, .education, .experience, .contact  {
+    margin-left: 3%;
+    background-blend-mode: darken;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: center;
+}
+
+hr {
+    border-color: #F9A03F;
+}
+
+.intro h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+.skills h3 {
+    padding-top: 18%;
+    background: url(../_images/skills2.jpg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+    background-origin: border-box;
+}
+
+.projects h3 {
+    padding-top: 15%;
+    background: url(../_images/projects.jpg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+    background-origin: border-box;
+}
+
+.education h3 {
+    padding-top: 20%;
+    background: url(../_images/courses.jpg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center;
+    background-origin: border-box;   
+}
+
+.experience h3 {
+    padding-top: 22%;
+    background: url(../_images/work.jpg);
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: center;
+    background-origin: border-box;  
+}
+
+dt {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.contact {
+    text-align: center;
+}
